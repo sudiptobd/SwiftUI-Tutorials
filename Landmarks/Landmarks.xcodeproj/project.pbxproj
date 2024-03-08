@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		FC7D73C32B9B976A0079139D /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7D73C22B9B976A0079139D /* LandmarksApp.swift */; };
 		FC7D73C52B9B976A0079139D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7D73C42B9B976A0079139D /* ContentView.swift */; };
-		FC7D73C72B9B976A0079139D /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC7D73C62B9B976A0079139D /* Item.swift */; };
 		FC7D73C92B9B976D0079139D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7D73C82B9B976D0079139D /* Assets.xcassets */; };
 		FC7D73CC2B9B976D0079139D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC7D73CB2B9B976D0079139D /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -18,7 +17,6 @@
 		FC7D73BF2B9B976A0079139D /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC7D73C22B9B976A0079139D /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		FC7D73C42B9B976A0079139D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FC7D73C62B9B976A0079139D /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		FC7D73C82B9B976D0079139D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC7D73CB2B9B976D0079139D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -55,7 +53,6 @@
 			children = (
 				FC7D73C22B9B976A0079139D /* LandmarksApp.swift */,
 				FC7D73C42B9B976A0079139D /* ContentView.swift */,
-				FC7D73C62B9B976A0079139D /* Item.swift */,
 				FC7D73C82B9B976D0079139D /* Assets.xcassets */,
 				FC7D73CA2B9B976D0079139D /* Preview Content */,
 			);
@@ -141,7 +138,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC7D73C52B9B976A0079139D /* ContentView.swift in Sources */,
-				FC7D73C72B9B976A0079139D /* Item.swift in Sources */,
 				FC7D73C32B9B976A0079139D /* LandmarksApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
