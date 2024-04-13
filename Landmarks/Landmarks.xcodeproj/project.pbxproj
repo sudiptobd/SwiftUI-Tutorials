@@ -19,6 +19,7 @@
 		FCC66B142BBB4DA600503150 /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = FCC66B132BBB4DA600503150 /* landmarkData.json */; };
 		FCC66B162BBB503000503150 /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC66B152BBB503000503150 /* Landmark.swift */; };
 		FCF445872BC9D83F006723AF /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF445862BC9D83F006723AF /* FavoriteButton.swift */; };
+		FCF4458B2BCA7454006723AF /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF4458A2BCA7454006723AF /* HexagonParameters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		FCC66B132BBB4DA600503150 /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
 		FCC66B152BBB503000503150 /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
 		FCF445862BC9D83F006723AF /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
+		FCF4458A2BCA7454006723AF /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				FCF445882BC9D8DD006723AF /* Helper */,
 				FCF445892BC9D8EE006723AF /* Landmark */,
+				FCF4458A2BCA7454006723AF /* HexagonParameters.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCF4458B2BCA7454006723AF /* HexagonParameters.swift in Sources */,
 				FCC66B122BB9E4E000503150 /* MapView.swift in Sources */,
 				FC7D73C32B9B976A0079139D /* LandmarksApp.swift in Sources */,
 				FC23AEB32BC28E670089A77B /* LandmarkList.swift in Sources */,
